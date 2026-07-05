@@ -1,0 +1,19 @@
+{
+  "name": "recipe-module",
+  "version": "1.0.0",
+  "description": "First backend module (Recipe entity) for Recipe Book graduation project",
+  "main": "server.js",
+   "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

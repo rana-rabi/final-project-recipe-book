@@ -27,6 +27,10 @@ const recipeSchema = new mongoose.Schema(
       required: true,
       min: [1, 'Prep time must be at least 1 minute'],
     },
+    imageUrl: {
+      type: String,
+      default: null,
+    },
     createdAt: {
       type: Date,
       default: Date.now,
